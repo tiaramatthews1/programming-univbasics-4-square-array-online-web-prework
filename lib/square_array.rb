@@ -8,5 +8,5 @@ def square_array(array)
 end
 
 def square_array(array)
-  array.each_with_object([1, 2, 3]) { |i,arr| arr << i ** 2 }
+  array.each_with_object([]) { |i,arr| arr << i ** 2 }
 end
